@@ -40,6 +40,7 @@ add:
 - org.osgi.util.tracker;version="1.5.3"
 
 MANIFEST.MF > Runtime > Exported Packages 
+add:
 - hello.osgi.api
 
 ***In the hello.osgi.en and hello.osgi.de***
@@ -73,6 +74,7 @@ add:
 - org.osgi.util.tracker;version="1.5.3"
 
 MANIFEST.MF > Runtime > Exported Packages 
+add:
 - hello.osgi.servlet
 
 5. Run the project with the specified run configurations and make sure all of the 4 bundles are in ACTIVE state
