@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: hello.osgi.api
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: hello.osgi.model
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Export-Package: hello.osgi.api
+Import-Package: hello.osgi.servlet,
+ org.osgi.framework;version="1.10.0",
+ org.osgi.service.http;version="1.2.1",
+ org.osgi.util.tracker;version="1.5.3"
