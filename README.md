@@ -8,7 +8,7 @@ The project consists of 4 bundles - one for the API, one for each language imple
 In the servlet bundle I use ServiceTracker and Activator. 
 
 ## Instructions
-1. You need to clone the project on your local machine and use Eclipse for your IDE
+1. Clone the repository on your local machine and use Eclipse for your IDE
 
 2. Create new Run Configurations from Run > Run Configurations > OSGi Framework > New Configuration > Bundles add all bundles from your workspace (in this case 4),
 then add the required bundles:
