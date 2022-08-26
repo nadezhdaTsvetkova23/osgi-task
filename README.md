@@ -79,3 +79,7 @@ add:
 
 5. Run the project with the specified run configurations and make sure all of the 4 bundles are in ACTIVE state
 6. Open http://localhost:8080/index.html and use the web app with selected language and given name, then go back and repeat
+
+The page should look like this:
+
+![osgi-task-web](https://media.github.softwareag.com/user/2541/files/86fffec8-829f-42e5-8ba3-6c2300123c0d)
