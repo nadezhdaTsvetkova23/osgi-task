@@ -9,11 +9,11 @@ In the servlet bundle I use ServiceTracker and Activator.
 
 ## Structure
 
-hello.osgi.api in the project is the service provider and describes what functionality supports the web app
+hello.osgi.api in the project is the service API and describes what functionality supports the web app
 
-hello.osgi.en and hello.osgi.de are service components and they implement the service provider 
+hello.osgi.en and hello.osgi.de are service providers(components) and they implement the service API 
 
-hello.osgi.servlet plays the role of a consumer and allows us through a simple user interface to use the different implemented functionalities 
+hello.osgi.servlet plays the role of a consumer and allows us through a simple user interface to use the different service providers (implemented functionalities) 
 
 ## Instructions
 1. Clone the repository on your local machine and use Eclipse for your IDE
