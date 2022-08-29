@@ -83,11 +83,10 @@ add:
 The page should look like this:
 
 ![osgi-task-web](https://media.github.softwareag.com/user/2541/files/86fffec8-829f-42e5-8ba3-6c2300123c0d)
-
 ## Structure
 
-hello.osgi.api in the project is the service provider and describes what functionality will the web app support
+hello.osgi.api in the project is the service provider and describes what functionality supports the web app
 
-hello.osgi.en and hello.osgi.de are service components and implement the service provider 
+hello.osgi.en and hello.osgi.de are service components and they implement the service provider 
 
 hello.osgi.servlet plays the role of a consumer and allows us through a simple user interface to use the different implemented functionalities 
