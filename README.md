@@ -7,6 +7,14 @@ In the web browser the user should select which language prefers and write a nam
 The project consists of 4 bundles - one for the API, one for each language implementation and one for the servlet, which helps us to visualise it in the web browser and uses one additional index.html file.
 In the servlet bundle I use ServiceTracker and Activator. 
 
+## Structure
+
+hello.osgi.api in the project is the service provider and describes what functionality supports the web app
+
+hello.osgi.en and hello.osgi.de are service components and they implement the service provider 
+
+hello.osgi.servlet plays the role of a consumer and allows us through a simple user interface to use the different implemented functionalities 
+
 ## Instructions
 1. Clone the repository on your local machine and use Eclipse for your IDE
 
@@ -83,10 +91,3 @@ add:
 The page should look like this:
 
 ![osgi-task-web](https://media.github.softwareag.com/user/2541/files/86fffec8-829f-42e5-8ba3-6c2300123c0d)
-## Structure
-
-hello.osgi.api in the project is the service provider and describes what functionality supports the web app
-
-hello.osgi.en and hello.osgi.de are service components and they implement the service provider 
-
-hello.osgi.servlet plays the role of a consumer and allows us through a simple user interface to use the different implemented functionalities 
