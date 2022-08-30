@@ -1,11 +1,30 @@
 package hello.osgi.de.impl;
 
+import org.osgi.framework.BundleContext;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
+import org.osgi.service.component.annotations.Reference;
+
 import hello.osgi.api.HelloService;
 
-public class HelloDE implements HelloService {
+@Component(immediate = true, service = HelloService.class)
+public class HelloDE implements HelloService  {
+//	protected final @Reference HelloService helloService;
+//	
+//	public HelloDE() {
+//		this.helloService = null;
+//	}
+	
+//	@Activate
+//    public HelloEN(final @Reference HelloService helloService) {
+//        this.helloService = helloService;
+//    }
 
-	public HelloDE() {	
-	}
+	@Activate
+    public void activate() {
+        System.out.println("HelloDE is active!");
+    }
 	
 	@Override
 	public String sayHello(String name) {
@@ -16,5 +35,5 @@ public class HelloDE implements HelloService {
 		}
 		return "Name is null";
 	}
-
+	
 }

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" activate="activate" immediate="true" name="hello.osgi.de.impl.HelloDE">
+   <service>
+      <provide interface="hello.osgi.api.HelloService"/>
+   </service>
+   <implementation class="hello.osgi.de.impl.HelloDE"/>
+</scr:component>

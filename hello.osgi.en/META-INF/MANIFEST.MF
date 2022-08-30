@@ -10,4 +10,4 @@ Import-Package: hello.osgi.api,
  org.osgi.service.component.annotations;version="1.3.0";resolution:=optional
 Export-Package: hello.osgi.en.impl
 Bundle-ActivationPolicy: lazy
-Bundle-Activator: hello.osgi.en.impl.Activator
+Service-Component: OSGI-INF/hello.osgi.en.impl.HelloEN.xml
