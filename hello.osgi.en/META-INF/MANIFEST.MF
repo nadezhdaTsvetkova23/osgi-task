@@ -13,4 +13,3 @@ Import-Package: hello.osgi.api,
 Export-Package: hello.osgi.en.impl
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: hello.osgi.en.impl.Activator
-Service-Component: OSGI-INF/hello.osgi.en.impl.HelloEN.xml

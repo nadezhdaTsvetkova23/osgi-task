@@ -8,6 +8,6 @@ Bundle-RequiredExecutionEnvironment: JavaSE-17
 Import-Package: hello.osgi.api,
  org.osgi.framework;version="1.10.0",
  org.osgi.service.component.annotations;version="1.3.0";resolution:=optional
+Bundle-Activator: hello.osgi.de.impl.Activator
 Export-Package: hello.osgi.de.impl
 Bundle-ActivationPolicy: lazy
-Service-Component: OSGI-INF/hello.osgi.de.impl.HelloDE.xml
