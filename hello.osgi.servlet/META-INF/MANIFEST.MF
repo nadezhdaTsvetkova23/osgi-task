@@ -22,3 +22,4 @@ Import-Package: hello.osgi.api,
  org.osgi.util.tracker;version="1.5.3"
 Bundle-ActivationPolicy: lazy
 Export-Package: hello.osgi.servlet
+Service-Component: OSGI-INF/hello.osgi.servlet.MyServlet.xml
