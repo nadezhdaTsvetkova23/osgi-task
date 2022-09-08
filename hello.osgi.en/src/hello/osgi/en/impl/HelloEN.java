@@ -1,7 +1,10 @@
 package hello.osgi.en.impl;
 
+import org.osgi.service.component.annotations.Component;
+
 import hello.osgi.api.HelloService;
 
+@Component
 public class HelloEN implements HelloService  {
 	
 	public HelloEN() {
