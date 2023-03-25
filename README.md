@@ -1,5 +1,7 @@
 # osgi-task
 Simple Java Project using OSGi framework with Equinox.
+## Purpose
+- Learning how to use OSGI, Java Servlets and REST APIs.
 ## Description
 The purpose of the Web App is to greet someone by name in different languages. In my case there are two languages - English and German. 
 In the web browser the user should select which language prefers and write a name, then it displays the greeting in the corresponding language.
